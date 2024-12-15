@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <title>Registration Page</title>
+</head>
+<body>
+ 
+    <form method="post" action="reg.php">
+        <fieldset>
+            <legend><h1>REGISTRATION</h1></legend>
+            <table>
+                <tr>
+                    <td>ID <br>
+                    <input type="number" name="id" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Password:<br>
+                    <input type="password" name="password" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password:<br>
+                    <input type="password" name="cpassword" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Name:<br>
+                    <input type="text" name="username" value="" /></td>
+                </tr>
+                <tr>
+                    <td>User Type<br>
+                   
+                        <input type="radio" id="user" name="role" value="user">
+                        <label for="user">User</label>
+                        <input type="radio" id="admin" name="role" value="admin">
+                        <label for="admin">Admin</label>
+                   </td>
+ 
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="submit" value="Sign Up" />
+                        <a href="login.html"> Sign In</a>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
