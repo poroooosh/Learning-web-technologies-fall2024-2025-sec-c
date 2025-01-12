@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign-In</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h2>Register</h2>
+        <form id="registerForm" action="register.php" method="POST" onsubmit="return validateForm()">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="text" name="company_name" placeholder="comapny_name" required>
+            <input type="text" name="contact_no" placeholder="Contact No" required>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required> <br>
+            <br>
+            <button type="submit">Register</button>
+        </form>
+        <script src="validation.js"></script>
+    </div>
+</body>
+</html>
